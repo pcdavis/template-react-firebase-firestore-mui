@@ -2,7 +2,23 @@
 
 This repo is a starter template to get a new React website up that includes Firebase for authentication and Firestore for database.
 The styling is Material UI based
-In the Index.css I have implmented the normalize.css to give it a clean baseline to start working on
+In the Index.css I have implmented the normalize.css to give it a clean baseline to start working on.
+The Firestore config file is not included in the repo - be sure to add it to your gitignore file
+
+Implementation Instructions
+
+To create a new site using this template:
+
+1. Clone the git repo and run npm install
+2. Copy the Firebase config file from your Firebase project at https://console.firebase.google.com
+3. Create config.js inside the firebase folder of your project and paste the config file in there and export it.
+4. It should be working. Test it by signing up for an account and see if it shows up in Firebase authentication
+5. git remote -v // confirm you are still connected to the template's remote repo
+6. remote rm origin // this will remove the remote repo so you can make changes and not worry about affecting the template.
+7. On Github, create a new repo for use with the new site you're creating from the template.
+8. git remote add origin newRepoUrl // this will make the new repo you created on Github the origin of the new site where you can backup your work. You are now disconnected from the template and can make whatever changes you want to the new site.
+
+### The rest of the readme is the standard react boilerplate readme
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
